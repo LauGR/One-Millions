@@ -1,0 +1,54 @@
+body {
+	margin:0;
+}
+/* Header/
+
+/* Menu*/
+
+nav {
+	display: flex; justify-content: space-between;
+}
+nav ul {
+	
+}
+nav li {display: inline-block;}
+
+/* home */
+
+#home {
+	background:url(../images/hero-image.jpg);
+	text-align: center; 
+}
+#home h1 {margin-top:0;}
+#home a {
+	background: red;
+	padding: 30px;
+}
+
+/*Section*/
+section{text-align: center;}
+hr {border-color: red; width: 150px}
+/*who */
+#who {padding: 1px;}
+#who figure {margin:0;}
+#who span {color:red;}
+
+/*get-involved*/
+#get-involved {background: gray;}
+#get-involved h2{margin-top:0;}
+.get-article {display: flex; justify-content: space-around;}
+
+/*footer*/
+
+footer {height: 235px; background: red; padding: 1px;}
+
+
+/*Tablette*/
+@media screen and (max-width: 991px) {
+	.get-article {flex-direction: column; }
+}
+/* Smartphone*/
+@media screen and (max-width: 767px) {
+	
+
+}
